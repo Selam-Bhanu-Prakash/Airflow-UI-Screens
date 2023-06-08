@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import EmailLoginScreen from "./Component/EmailLoginScreen";
 import EmailSubmit from "./Component/EmailSubmit";
+import EmailExists from "./Component/EmailExists";
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       
         <Routes>
           <Route path="/" element={<EmailLoginScreen />} />
-          <Route path="/submited" element={<EmailSubmit />} />
+          <Route path="/submitted" element={<EmailSubmit />} />
+          <Route path="/exists" element={<EmailExists />} />
         </Routes>
     
     </div>
