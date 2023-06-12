@@ -8,6 +8,23 @@
     height: 100vh; 
   }
   
+.message-container {
+  background-image: url("./assets/image.svg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-left: 25%;
+    align-items: start;
+    height: 100vh; 
+}
+.letter-pad {
+  width: 70%;
+  padding: 70px;
+  background-color: white;
+  box-shadow: 0px 3px 12px black;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 
 form {

@@ -1,15 +1,17 @@
 import React from "react";
 
-
-function EmailSubmit(){
-    return(
-     <div className="form-container"> 
-       <div style={{display:"flex",justifyItems:"center"}}> 
+function EmailSubmit() {
+  return (
+    <div className="message-container">
+      <div className="letter-pad">
         <h1>THANK YOU !!!!</h1>
-        
-        </div>
-        <h3 style={{marginTop:"100px",marginLeft:"-100px"}}>You are Signed In ...</h3>
-        </div>
-    )
+
+        <h3>
+          <br /> <br /> Connection Created with entered credentials.
+          <br /> <br /> Now, DAG can be triggered.
+        </h3>
+      </div>
+    </div>
+  );
 }
 export default EmailSubmit;
